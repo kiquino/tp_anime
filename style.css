@@ -81,7 +81,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url(assets/Kimetsu_no_yaiba_Logo.png);
+  background-image: url(Kimetsu_no_yaiba_Logo.png);
   background-size: 30%;
   height: 100%;
   background-position: center;
@@ -397,7 +397,7 @@ header a {
 }
 
 header a .logo-kim-sm {
-  background-image: url(assets/Kimetsu_no_yaiba_Logo.png);
+  background-image: url(Kimetsu_no_yaiba_Logo.png);
   width: 10em;
   background-size: contain;
   height: 100%;
@@ -1046,7 +1046,7 @@ footer {
     height: 3em;
   }
   header a .logo-kim-sm {
-    background-image: url(assets/Kimetsu_no_yaiba_Logo.png);
+    background-image: url(Kimetsu_no_yaiba_Logo.png);
     width: 10em;
     background-size: contain;
     height: 100%;
@@ -1520,7 +1520,7 @@ footer {
     height: 3em;
   }
   header a .logo-kim-sm {
-    background-image: url(assets/Kimetsu_no_yaiba_Logo.png);
+    background-image: url(Kimetsu_no_yaiba_Logo.png);
     width: 10em;
     background-size: contain;
     height: 100%;
