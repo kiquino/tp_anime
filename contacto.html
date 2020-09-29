@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimetsu no Yaiba - contacto</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+</head>
+
+<body>
+    <!--
+   <div class="overscreen">
+        <div class="logo-kim">
+            <div class="img"><img src="assets/group.png" alt="">
+                <a id="ingreso" href=""><div class="ingreso-btn">Bienvenido</div></a>
+            </div>
+
+
+        </div>
+        
+    </div> 
+    -->
+    <header>
+        <a href="index.html"><div class="logo-kim-sm"></div></a>
+
+        <nav>
+            <ul>
+                <li><a href="historia.html">Historia</a></li>
+                <li class="drop">Personajes
+                    <div class="menu">
+                        <ul>
+                            <li><a href="heroes.html">Cazadores</a></li>
+                            <li><a href="demonios.html">Demonios</a></li>
+                        </ul>
+
+                    </div>
+                </li>
+                <li><a href="contacto.html">Contacto</a>
+                </li>
+              
+            </ul>
+        </nav>
+    </header>
+
+    
+    <main>
+        <div class="title">
+            <h1>Deje un comentario</h1>
+            <p>Gracias por pasar!</p>
+        </div>
+
+        <form action="conexion/mail.php" method="post">
+            <div class="contacto">
+                <div class="item">
+                    <label for="nombre"><i class="far fa-user-circle"style="color:white"></i></label>
+                    <input type="text" name="nombre" placeholder="Nombre">
+                </div>
+                <div class="item">
+                    <label for="email"><i class="fas fa-envelope" style="color:white"></i></label>
+                    <input type="email" name="email" placeholder="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                </div>
+
+            </div>
+            <div class="contacto">
+            <div class="item">
+                
+                <label for="asunto"><i class="fas fa-edit" style="color:white"></i></label>
+                <input type="text" name="asunto" placeholder="Asunto">
+            </div>
+        </div>
+        <div class="contacto">
+            
+                <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Deje su mensaje.."required></textarea>
+
+               
+           
+        </div>
+        <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+
+    <footer>
+        
+        <div class="contacto">Kimetsu no yaiba 2020 </div>
+    </footer>
+
+
+</body>
+
+</html>
